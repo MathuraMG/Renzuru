@@ -1,0 +1,18 @@
+<script src="ImageTools.js" ></script>
+<html>
+	<head>
+		<link rel="stylesheet" href="pagetheme.css" >
+		<link rel="stylesheet" href="imagetheme.css" >
+		<link rel="stylesheet" href="maintheme.css" >
+		<meta http-equiv="x-ua-compatible" content="IE=8">
+	</head>
+	<body>
+	<%= erb :Menu %>
+		<%= yield %>
+			<script>
+		getScrollHeight();
+		
+		</script>
+		<%= erb :Footer %>
+	<body>
+</html>

@@ -1,0 +1,13 @@
+@font-face
+{
+	font-family:"CoverFont";
+	src: url(fonts/Coffee.ttf);
+}
+h1
+{
+	font-family:"CoverFont";
+	font-size: 5.0vw;
+	color:#111111;
+	text-align:center;
+	vertical-align: text-bottom;
+}

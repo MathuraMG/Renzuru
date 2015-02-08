@@ -1,0 +1,11 @@
+div.FootBox
+{
+	width: 80%;
+	text-align: left;
+	height: 15px;
+}
+a.FootBox
+{
+	font-size: 0.8vw;
+	height: 15px;
+}
